@@ -1,0 +1,21 @@
+{
+  "name": "video-trim-modal",
+  "main": "distribute/videoTrimModal.js",
+  "version": "1.0.1",
+  "description": "A lightweight JavaScript modal for allowing user so choose postions and thus time values for trimming videos.",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "author": "Hamza Wain",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "dependencies": {
+    "nouislider": "^10.1.0"
+  }
+}
