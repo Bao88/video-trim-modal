@@ -14,6 +14,19 @@ npm [(package)](https://www.npmjs.com/package/video-trim-modal)
 ---
 `npm install video-trim-modal --save`
 
+How to use
+----------
+Download the distribution/videoTrimModal.js or distribution/videoTrimModal.min.js (for smaller buy ugly looking code)
+and include the script in your code which ever way you like then use as following
+
+```javascript
+var modal = document.getElementById('modal');
+
+videoTrimModal.create(modal, {
+  videoSrc: "[video link]"
+});
+```
+
 Browserify
 ----------
 You can use it in this way:
@@ -24,7 +37,7 @@ var videoTrimModal = require('videoTrimModal');
 var modal = document.getElementById('modal');
 
 videoTrimModal.create(modal, {
-  videoSrc: ""
+  videoSrc: "[video link]"
 });
 ```
 
