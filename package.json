@@ -1,7 +1,7 @@
 {
   "name": "video-trim-modal",
   "main": "distribute/videoTrimModal.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight JavaScript modal for allowing user so choose postions and thus time values for trimming videos.",
   "scripts": {
     "build": "webpack",
