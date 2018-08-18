@@ -7,6 +7,7 @@ var noUiSlider = require('nouislider');
     window.videoTrimModal = factory();
 }(function () {
 
+
     var VERSION = 1.0,
         options = null,
         slider = null,
